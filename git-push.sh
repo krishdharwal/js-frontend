@@ -4,6 +4,6 @@ echo "Enter Commit Message -> "
 read msg
 
 git add .
-git commit -am"$msg"
+git commit -m"$msg"
 git push 
  
